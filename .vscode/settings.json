@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "code-runner.runInTerminal": true,
+    "editor.mouseWheelZoom": true
+}
