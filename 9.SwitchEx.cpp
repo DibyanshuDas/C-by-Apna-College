@@ -39,7 +39,7 @@ int main(){
 
     //Exit Code
     int exit;
-    cout<<"Press 1 to exit"<<endl;
+    cout<<"Press 2 to exit"<<endl;
     cin>>exit;
     cout<<exit<<endl;
     

@@ -3,6 +3,6 @@
         "iostream": "cpp"
     },
     "editor.multiCursorModifier": "ctrlCmd",
-    "code-runner.runInTerminal": true,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "code-runner.runInTerminal": true
 }

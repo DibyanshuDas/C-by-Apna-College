@@ -16,8 +16,11 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
-            "detail": "Generated task by Debugger"
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Generated task by Dibyanshu"
         },
         {
             "type": "cppbuild",
@@ -35,10 +38,7 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "group": "build",
             "detail": "Generated task by Debugger"
         }
     ],
