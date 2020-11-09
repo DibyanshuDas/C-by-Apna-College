@@ -3,8 +3,8 @@ using namespace std;
 
 int main(){
     //Ques1. Write a program to write a simple calculator.
-    int num1,num2;
-    int result;
+    float num1,num2;
+    float result;
     char opt;
     cout<<"Enter two numbers"<<endl;
     cin>>num1>>num2;
@@ -29,11 +29,6 @@ int main(){
         result=num1/num2;
         cout<<"Result = "<<result<<endl;
         break;
-    case '%':
-        result=num1%num2;
-        cout<<"Result = "<<result<<endl;
-        break;
-    
     default:
         cout<<"Operand not found!"<<endl;
         break;
