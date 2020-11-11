@@ -17,13 +17,14 @@ int main(){
 
     //Ques2. Program to find sum of natural numbers till n.
     int n1;
-    cout<<"/n"<<"/n"<<"Ques2. Program to find sum of natural numbers till n."<<endl;
+    cout<<"\n"<<"\n"<<"Ques2. Program to find sum of natural numbers till n."<<endl;
     cout<<"Enter a number"<<endl;
     cin>>n1;
     cout<<endl;
-    for(int natnum=1;natnum<=n1;natnum++){
+    for(int natnum=1;natnum<n1;natnum++){
         cout<<natnum<<" + ";
     }
+    cout<<n1;
     int sum = n1*(n1+1);
     sum = sum/2;
     cout<<" = "<<sum<<endl;
