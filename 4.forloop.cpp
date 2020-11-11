@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     //Ques1. Program to find the factorial of number n.
     int n;
-    cout<<"/n"<<"/n"<<"Ques1. Program to find the factorial of number n."<<endl;
+    cout<<"\n"<<"\n"<<"Ques1. Program to find the factorial of number n."<<endl;
     cout<<"Enter a number"<<endl;
     cin>>n;
     int fact = 1;
@@ -22,8 +22,11 @@ int main(){
     cin>>n1;
     cout<<endl;
     for(int natnum=1;natnum<=n1;natnum++){
-        cout<<natnum<<endl;
+        cout<<natnum<<" + ";
     }
+    int sum = n1*(n1+1);
+    sum = sum/2;
+    cout<<" = "<<sum<<endl;
 
 
 
