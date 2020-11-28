@@ -49,8 +49,11 @@ int main(){
         sum +=number;  
     } while (number>=0);
     cout<<"The sum is :"<<sum<<endl;
-    
-    
+      
+    //exit code
+    int exitn; 
+    cin>>exitn;
+    cout<<exitn;
 
     return 0;
 }
